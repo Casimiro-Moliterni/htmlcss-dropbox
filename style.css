@@ -1,0 +1,17 @@
+/* regole di base  */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner-large{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteiner-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
