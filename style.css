@@ -325,3 +325,11 @@ margin-bottom: 140px;
     background-color: white;
     color: black;
 }
+
+.box-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 83px;
+    row-gap: 60px;
+    width: calc(100%);
+}
