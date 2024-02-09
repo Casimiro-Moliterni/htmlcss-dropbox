@@ -120,10 +120,11 @@ header nav ul li a{
 .btn{
     border: none;
     background-color: #0061ff;
-    padding: 10px 17px ;
+    padding: 8px 12px ;
     color: white;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: inherit;
     }
     
 
@@ -151,14 +152,18 @@ h2{
 h3{
     font-family: inherit;
     font-weight: 700;
-    /* font-size: ; */
+    font-size:25px ;
+}
+h4{
+    
+    font-family: inherit;
+    font-weight: 700;
 }
 
 
 
-
 .text-col-33{
-    padding: 0 30px;
+    padding: 35px 30px 0 30px;
     font-family: inherit;
 }
 
@@ -198,9 +203,9 @@ input {
 
  .box-tariffario{
     max-width: 100%;
-    min-height: 950px;
     display: flex;
     gap: 50px;
+
 }
 
 .text-col-top{
@@ -234,7 +239,37 @@ gap: 5px;
     padding-bottom: 20px;
 }
 
-.conteiner-top-col-33 .ul-col-33>ul li{
+.conteiner-top-col-33 .ul-col-33>ul li>div{
     font-size: 14px;
     font-family: inherit;
+}
+
+ .btn-tariffario{
+    text-align: center;
+    padding: 12px 37px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.buy-col-33{
+    font-size: 13px;
+    color: #0000ee;
+    font-family: inherit;
+    padding-bottom: 33px;
+}
+
+.ul-col-33 hr{
+    max-width: 50px;
+    color:#d0d0d3 ;
+}
+
+.conteiner-bottom-col-33{
+    padding-top: 45px;
+    font-family: inherit;
+    padding-bottom: 180px;
+}
+
+ .conteiner-bottom-col-33  .ul-col-33 i {
+    color: #187fff;
+    font-size: 20px;
 }
