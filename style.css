@@ -64,7 +64,9 @@ img{
 .col-33{
     width: calc(100% / 3 );
 }
-
+.col-60{
+    width: 60%;
+}
 .col-70{
     width: 70%;
 }
@@ -158,7 +160,7 @@ h2{
 h3{
     font-family: inherit;
     font-weight: 700;
-    font-size:25px ;
+    font-size:27px ;
 }
 h4{
     
@@ -245,7 +247,7 @@ gap: 5px;
     padding-bottom: 20px;
 }
 
-.conteiner-top-col-33 .ul-col-33>ul li>div + .text-col-100{
+.conteiner-top-col-33 .ul-col-33>ul li>div + .text-col-100+p{
     font-size: 14px;
     font-family: inherit;
 }
@@ -286,12 +288,40 @@ gap: 5px;
 
 .box-col-bottom{
 display: flex;
+margin-bottom: 140px;
 }
 .text-col-100{
     padding-top: 55px;
     padding-bottom: 30px;
 }
+.btn-col-100{
+    padding: 14px 40px;
+    white-space: nowrap;
+}
  
 .display-flex{
     display: flex;
+}
+.box-col-img{
+    margin-bottom: 160px;
+}
+
+.box-col-img .conteiner-small .col-60 img{
+
+    max-width: 600px;
+    padding-right: 50px;
+}
+
+.box-col-img .conteiner-small .col-40{
+    padding-top: 60px ;
+    padding-right: 45px;
+}
+
+.btn-trasparent{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    background-color: white;
+    color: black;
 }
