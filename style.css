@@ -47,6 +47,7 @@ img{
     
 }
 
+
 /* colonne  */
 
 .col{
@@ -57,7 +58,7 @@ img{
     width: 30%;
 }
 .col-33{
-    width: calc(100% / 3 - 50px);
+    width: calc(100% / 3 );
 }
 
 .col-70{
@@ -65,13 +66,13 @@ img{
 }
 /* box  */
   
-.hero .box{
+.box-hero{
     width: 100%;
     display: flex;
     position: relative;
-    bottom: -80px;
+    bottom: -80px; 
+    
 }
-
 
 
 /* header  */
@@ -131,9 +132,10 @@ body{
 }
 .hero .text-title{
     font-family: inherit;
-    font-size: 65px;
+    font-size:65px;
     font-weight: 900;
-     max-width:1000px;
+    padding-right: 80px;  
+      
 }
 
 h2{
@@ -144,10 +146,11 @@ h2{
 
 /* inizio main  */
 .hero{
-    padding-top: 100px;
+    /* padding-top: 100px; */
     background-color: #b4d0e7;
     margin-bottom: 95px;
-    padding-bottom: 80px;
+    padding-top: 80px;
+    
 }
 
 #arrow-down{
@@ -170,7 +173,7 @@ input {
     
 }
 
- .box{
+ .box-tariffario{
     max-width: 100%;
     min-height: 950px;
     display: flex;
