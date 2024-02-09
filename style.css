@@ -246,7 +246,8 @@ gap: 5px;
 
  .btn-tariffario{
     text-align: center;
-    padding: 13px 36px;
+    padding: 13px ;
+    width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -272,4 +273,7 @@ gap: 5px;
  .conteiner-bottom-col-33  .ul-col-33 i {
     color: #187fff;
     font-size: 20px;
+}
+.box-tariffario .col-33{
+    padding-bottom: 20px;
 }
