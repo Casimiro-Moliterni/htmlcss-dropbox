@@ -47,6 +47,10 @@ img{
     
 }
 
+.padding-h3-col-33{
+    padding-bottom: 18px;
+}
+
 
 /* colonne  */
 
@@ -133,22 +137,41 @@ body{
 .hero .text-title{
     font-family: inherit;
     font-size:65px;
-    font-weight: 900;
+    font-weight: 800;
     padding-right: 80px;  
       
 }
 
 h2{
-    font-size: 50px;
+    font-size: 45px;
     font-family: inherit;
-    font-weight: 900;
+    font-weight: 700;
 }
+
+h3{
+    font-family: inherit;
+    font-weight: 700;
+    /* font-size: ; */
+}
+
+
+
+
+.text-col-33{
+    padding: 0 30px;
+    font-family: inherit;
+}
+
+.color-grey{
+    color:#666697;
+}
+
 
 /* inizio main  */
 .hero{
     /* padding-top: 100px; */
     background-color: #b4d0e7;
-    margin-bottom: 95px;
+    margin-bottom: 170px;
     padding-top: 80px;
     
 }
@@ -187,4 +210,25 @@ padding: 13px 0;
 justify-content: center;
 align-items: center;
 gap: 5px;
+
+}
+
+.price-col-33{
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.conteiner-top-col-33 .ul-col-33{
+    margin-top: 35px;
+   
+}
+.conteiner-top-col-33 .ul-col-33>ul{
+   
+   list-style: none;
+}
+.conteiner-top-col-33 .ul-col-33>ul>li{
+    display: flex;
+    align-items: center;
+    gap:5px;
 }
