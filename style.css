@@ -227,8 +227,14 @@ gap: 5px;
    
    list-style: none;
 }
-.conteiner-top-col-33 .ul-col-33>ul>li{
+.conteiner-top-col-33 .ul-col-33>ul li {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap:5px;
+    padding-bottom: 20px;
+}
+
+.conteiner-top-col-33 .ul-col-33>ul li{
+    font-size: 14px;
+    font-family: inherit;
 }
