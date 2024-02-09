@@ -24,7 +24,7 @@ img{
 .box {
     border: 1px solid black;
 }
-.col-33{
+.col-33, .col{
     border: 1px solid #d0d0d3;
 }
 /* padding /margin */
@@ -47,8 +47,8 @@ img{
     
 }
 
-.padding-h3-col-33{
-    padding-bottom: 18px;
+.padding-h3-col-33 {
+    padding-bottom: 22px;
 }
 
 
@@ -67,6 +67,12 @@ img{
 
 .col-70{
     width: 70%;
+}
+.col-73{
+    width: 73%;
+}
+.col-27{
+    width: 27%;
 }
 /* box  */
   
@@ -205,7 +211,7 @@ input {
     max-width: 100%;
     display: flex;
     gap: 50px;
-
+    margin-bottom: 40px;
 }
 
 .text-col-top{
@@ -239,7 +245,7 @@ gap: 5px;
     padding-bottom: 20px;
 }
 
-.conteiner-top-col-33 .ul-col-33>ul li>div{
+.conteiner-top-col-33 .ul-col-33>ul li>div + .text-col-100{
     font-size: 14px;
     font-family: inherit;
 }
@@ -276,4 +282,16 @@ gap: 5px;
 }
 .box-tariffario .col-33{
     padding-bottom: 20px;
+}
+
+.box-col-bottom{
+display: flex;
+}
+.text-col-100{
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+ 
+.display-flex{
+    display: flex;
 }
