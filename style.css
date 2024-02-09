@@ -24,8 +24,8 @@ img{
 .box {
     border: 1px solid black;
 }
-.box>*{
-    border: 1px solid black;
+.col-33{
+    border: 1px solid #d0d0d3;
 }
 /* padding /margin */
 .padding-30{
@@ -42,7 +42,10 @@ img{
     padding-bottom: 70px;
 }
 
-
+.padding{
+    padding-right: 40px;
+    
+}
 
 /* colonne  */
 
@@ -54,7 +57,7 @@ img{
     width: 30%;
 }
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 50px);
 }
 
 .col-70{
@@ -133,12 +136,18 @@ body{
      max-width:1000px;
 }
 
+h2{
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: 900;
+}
 
 /* inizio main  */
 .hero{
     padding-top: 100px;
     background-color: #b4d0e7;
     margin-bottom: 95px;
+    padding-bottom: 80px;
 }
 
 #arrow-down{
@@ -152,4 +161,27 @@ body{
 input {
     padding: 10px;
     color: blue;
+}
+
+.btn-radio{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    
+}
+
+ .box{
+    max-width: 100%;
+    min-height: 950px;
+    display: flex;
+    gap: 50px;
+}
+
+.text-col-top{
+border-bottom: 1px solid #d0d0d3;
+display: flex;
+padding: 13px 0;
+justify-content: center;
+align-items: center;
+gap: 5px;
 }
