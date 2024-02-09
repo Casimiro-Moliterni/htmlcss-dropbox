@@ -179,7 +179,11 @@ h4{
     color:#666697;
 }
 
-
+.box-card h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+}
 /* inizio main  */
 .hero{
     /* padding-top: 100px; */
@@ -329,7 +333,18 @@ margin-bottom: 140px;
 .box-card{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 83px;
-    row-gap: 60px;
-    width: calc(100%);
+    margin-top: 83px; 
+    justify-content: space-between;
+     gap: 50px;
+     row-gap: 60px;
+}
+
+.box-card .col-33{
+   
+    width: calc(100% / 3 - 50px);
+}
+
+.box-card .col-33 h4{
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
