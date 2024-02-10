@@ -37,6 +37,9 @@ img{
 .padding-40{
     padding-bottom: 40px;
 }
+.padding-50{
+padding-bottom: 50px;
+}
 
 .padding-70{
     padding-bottom: 70px;
@@ -373,9 +376,7 @@ margin-bottom: 140px;
 
 .cards-clients{
     width: 100%;
-    min-height: 320px;
-    background-color: red;
-    
+    min-height: 320px; 
     justify-content: center;
     align-items: center;
     display: flex;
@@ -389,12 +390,43 @@ margin-bottom: 140px;
     background-color: #f5f5f5;
     border: none;
     min-height: 100%;
+    padding: 45px 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+ }
+ .col-grow .cards-clients hr{
+    width: 100px;
+    color: #d0d0d3;
+ }
+
+ .col-grow .cards-clients .designit{
+    height: 90px;
+    
+ }
+ .hr{
+   min-width:100px ;
+    color:#d0d0d3 ;
  }
 
 
-
  .box-clients .col-33 .item-card .logo-cards{
-    height: 60px;
+    height: 50px;
+    filter: invert(1);
+ }
+ .box-clients .col-33 .item-card .logo-cards.florida{
+    height: 40px;
+    
+ }
+
+
+ .box-clients .col-33 .item-card .logo-cards-big{
+    height: 120px;
+   filter: invert(1);
+ }
+
+ .box-clients .col-33 .item-card .logo-cards-big.topps{
+    height: 90px; 
  }
  .color-green{
     background-color: #a2d39b;
