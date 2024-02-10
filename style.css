@@ -400,14 +400,14 @@ margin-bottom: 140px;
     color: #d0d0d3;
  }
 
+.col-grow .cards-clients .padding{
+    padding-top: 45px;
+}
  .col-grow .cards-clients .designit{
     height: 90px;
     
  }
- .hr{
-   min-width:100px ;
-    color:#d0d0d3 ;
- }
+
 
 
  .box-clients .col-33 .item-card .logo-cards{
