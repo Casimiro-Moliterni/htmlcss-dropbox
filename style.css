@@ -335,16 +335,24 @@ margin-bottom: 140px;
     flex-wrap: wrap;
     margin-top: 83px; 
     justify-content: space-between;
-     gap: 50px;
-     row-gap: 60px;
+     gap: 40px;
+     row-gap: 45px;
+     margin-bottom: 180px;
 }
 
 .box-card .col-33{
    
-    width: calc(100% / 3 - 50px);
+    width: calc(100% / 3 - 40px);
+    border: none;
 }
 
 .box-card .col-33 h4{
     padding-top: 10px;
     padding-bottom: 30px;
+}
+
+.box-team-drop h3 {
+    padding-bottom: 60px;
+    font-size: 30px;
+    max-width: 600px;
 }
