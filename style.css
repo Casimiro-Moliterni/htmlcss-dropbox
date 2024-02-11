@@ -101,12 +101,18 @@ padding-bottom: 50px;
 
 header {
    
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: white;
     display: flex;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 20px;
     padding-right: 20px;
     justify-content: space-between;
+    border-bottom: 1px solid #d0d0d3;
 }
 
 header nav ul{
@@ -125,9 +131,9 @@ header nav ul{
     align-content: center;
 }
 
-header nav ul li a , footer ul li a{
+header nav ul li a , footer ul li a ,  .footer-bottom ul{
     text-decoration: none;
-  
+    color: black;
 }
 .logo{
     height: 30px;
@@ -172,7 +178,7 @@ h2{
 h3{
     font-family: inherit;
     font-weight: 700;
-    font-size:27px ;
+    font-size:33px ;
 }
 h4{
     
@@ -517,6 +523,7 @@ margin-bottom: 140px;
 .question i {
     font-size: 18px;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 footer{
@@ -524,6 +531,7 @@ footer{
     padding-top: 100px;
     color: white;
     font-family: inherit;
+    border-bottom: 1px solid white;
 }
 
 .box-footer{
@@ -532,8 +540,32 @@ footer{
 }
 footer ul li a {
     color: white;
-    line-height: 17px;
+    
 }
 footer ul li {
-    line-height: 17px;
+    padding-bottom: 17px;
+}
+footer .col-25 h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+footer .col-25 .padding{
+    padding-bottom: 100px;
+}
+footer hr{
+    color: #d0d0d3;
+    width: 122px;
+    
+}
+
+.footer-bottom{
+    align-items: center;
+    gap: 6px;
+    padding-top :50px ;
+    padding-bottom: 50px;
+}
+
+.footer-bottom a, .footer-bottom i{
+    text-decoration: none;
+    color: #999999;
 }
