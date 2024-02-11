@@ -65,7 +65,9 @@ padding-bottom: 50px;
 .col-grow{
     flex-grow: 2;
 }
-
+.col-25{
+    width: 25%;
+}
 .col-30{
     width: 30%;
 }
@@ -123,7 +125,7 @@ header nav ul{
     align-content: center;
 }
 
-header nav ul li a{
+header nav ul li a , footer ul li a{
     text-decoration: none;
   
 }
@@ -498,7 +500,7 @@ margin-bottom: 140px;
     padding-top: 155px;
     padding-bottom: 145px;
  }
- .question ul{
+ .question ul , footer ul{
     list-style:none ;
  }
  .question ul li div{
@@ -515,4 +517,23 @@ margin-bottom: 140px;
 .question i {
     font-size: 18px;
     padding-right: 40px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 100px;
+    color: white;
+    font-family: inherit;
+}
+
+.box-footer{
+    justify-content: space-between;
+    column-gap: 85px;
+}
+footer ul li a {
+    color: white;
+    line-height: 17px;
+}
+footer ul li {
+    line-height: 17px;
 }
