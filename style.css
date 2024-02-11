@@ -494,3 +494,25 @@ margin-bottom: 140px;
     padding: 14px 40px;
     border: none;
  }
+ .question{
+    padding-top: 155px;
+    padding-bottom: 145px;
+ }
+ .question ul{
+    list-style:none ;
+ }
+ .question ul li div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #999999;
+    padding: 37px 0;
+ }
+
+ .question .border-color{
+    border-bottom: 1px solid #999999;
+ }
+.question i {
+    font-size: 18px;
+    padding-right: 40px;
+}
