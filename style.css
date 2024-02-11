@@ -27,6 +27,7 @@ img{
 .col-33, .col{
     border: 1px solid #d0d0d3;
 }
+
 /* padding /margin */
 .padding-30{
     padding-bottom: 30px;
@@ -140,6 +141,8 @@ header nav ul li a{
     cursor: pointer;
     font-size: 14px;
     font-family: inherit;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
     }
     
 
@@ -475,4 +478,19 @@ margin-bottom: 140px;
  }
  .color-yellow{
     background-color: #ffd830;
+ }
+
+ .box-bottom-clients{
+    padding:130px 130px;
+    background-color: #b4d0e7;
+ }
+ .box-bottom-clients h3{
+    color:#61082b ;
+    font-family: inherit;
+   
+ }
+ 
+ .box-bottom-clients .btn{
+    padding: 14px 40px;
+    border: none;
  }
